@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '@/components/Layout'
 import Image from 'next/image'
-import profilePic from '../../public/images/profile/developer-pic-1.png'
+import profilePic from '../../public/images/profile/profile-pic.png'
 import AnimatedText from '@/components/AnimatedText'
 import { LinkArrow, MailIcon } from '@/components/Icons'
 
@@ -19,9 +19,10 @@ export default function Home() {
               <Image src={profilePic} alt="home image" className='w-full h-auto'/>
             </div>
             <div className='w-1/2 flex flex-col items-center self-center'>
-              <AnimatedText text="Turning Vision Into Reality With Code And Design." className='text-left'/>
-              <p className='my-4 text-base font-medium'>As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
-              Explore my latest projects and articles, showcasing my expertise in React.js and web development.
+              <AnimatedText text="Dishing Out Digital Delicacies: Crafting Web Solutions with a Chef's Precision" className='text-left'/>
+              <p className='my-4 text-base font-medium'>Step into my world, where I delve into the art of code and cuisine. 
+                From crafting innovative software applications to creating culinary delights, I blend my passion for software development with the finesse of a chef. 
+                Explore a fusion of flavors and functionalities in my latest projects, highlighting my expertise in React.js and beyond.
               </p>
               <div className='flex items-center self-start mt-2'>
                 <Link 
