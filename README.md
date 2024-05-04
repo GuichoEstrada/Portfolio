@@ -16,7 +16,7 @@
 
 ### Resources Used in This Project
 
-- Profile image in the home page created by using Magic Media tool of Canva.
+- Profile image in the home page created by using Magic Media tool of [Canva](https://canva.com/).
 - Profile image in the about page by yours truly
 - Fonts from https://fonts.google.com/ <br />
 - Icons from https://iconify.design/ <br />
