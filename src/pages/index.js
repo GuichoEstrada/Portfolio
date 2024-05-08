@@ -4,6 +4,8 @@ import Layout from '@/components/Layout'
 import Image from 'next/image'
 import profilePic from '../../public/images/profile/profile-pic.png'
 import AnimatedText from '@/components/AnimatedText'
+import HireMe from '@/components/HireMe'
+import lightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg'
 import { LinkArrow, MailIcon } from '@/components/Icons'
 
 export default function Home() {
@@ -46,6 +48,10 @@ export default function Home() {
             </div>
           </div>
         </Layout>
+        <HireMe />
+        <div className='absolute right-8 bottom-8 inline-block w-24'>
+          <Image src={lightBulb} alt="bulb image" className='w-full h-auto' />
+        </div>
       </main>
     </>
   )
