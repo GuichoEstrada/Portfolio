@@ -39,12 +39,12 @@ const about = () => {
             <title>Luis Carlo Estrada | About Page</title>
             <meta name="description" content="A little something about me"/>
         </Head>
-        <main className='flex w-full flex-col items-center justify-center'>
+        <main className='flex w-full flex-col items-center justify-center dark:text-light'>
             <Layout className='pt-16'>
                 <AnimatedText text="Passion Fuels Purpose!" className='mb-16'/>
                 <div className='grid w-full grid-cols-8 gap-16'>
                     <div className='col-span-3 flex flex-col items-start justify-start text-justify'>
-                        <h2 className='mb-4 text-lg- font-bold uppercase text-dark/75'>Some things about me...</h2>
+                        <h2 className='mb-4 text-lg- font-bold uppercase text-dark/75 dark:text-light/75'>Some things about me...</h2>
                         <p className='font-medium'>
                             Hey, I&#39;m Luis Estrada, a passionate software and web developer with a knack for crafting code and cooking up 
                             culinary delights. With 3 years of experience in the digital world, I thrive on turning ideas into reality, 
@@ -64,28 +64,28 @@ const about = () => {
                             Let&#39;s collaborate on your next project, whether it&#39;s a cutting-edge application or a mouthwatering dish. Together, we can create something truly special.
                         </p>
                     </div>
-                    <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8'>
-                        <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark'></div>
-                        <Image src={profilePic} alt="profile picture" className='w-full h-auto rounded-2xl'/>
+                    <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light'>
+                        <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'></div>
+                        <Image src={profilePic} alt="profile picture" className='w-full h-auto rounded-2xl' priority sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"/>
                     </div>
                     <div className='col-span-2 flex flex-col items-end justify-between'>
                         <div className='flex flex-col items-end justify-center'>
                             <span className='inline-block text-7xl font-bold'>
                                 <AnimatedNumbers value={3}/>+
                             </span>
-                            <h2 className='text-xl font-medium capitalize text-dark/75'>years of experience</h2>
+                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>years of experience</h2>
                         </div>
                         <div className='flex flex-col items-end justify-center'>
                             <span className='inline-block text-7xl font-bold'>
                                 <AnimatedNumbers value={5}/>+
                             </span>
-                            <h2 className='text-xl font-medium capitalize text-dark/75'>successful projects delivered</h2>
+                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>successful projects delivered</h2>
                         </div>
                         <div className='flex flex-col items-end justify-center'>
                             <span className='inline-block text-7xl font-bold'>
                                 <AnimatedNumbers value={1000}/>+
                             </span>
-                            <h2 className='text-xl font-medium capitalize text-dark/75'>hours dedicated to continuous learning</h2>
+                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>hours dedicated to continuous learning</h2>
                         </div>
                     </div>
                 </div>

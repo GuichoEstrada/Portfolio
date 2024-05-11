@@ -13,7 +13,7 @@ const Details = ({position, company, companyLink, time, address, work}) => {
         >
             <h3 className='capitalize font-bold text-2xl'>
                 {position}&nbsp;
-                <a href={companyLink} target='_blank' className='text-primary capitalize'>
+                <a href={companyLink} target='_blank' className='text-primary dark:text-primaryDark capitalize'>
                     @{company}
                 </a>
             </h3>
@@ -39,7 +39,7 @@ const Experience = () => {
         <div ref={ref} className='w-[75%] mx-auto relative'>
             <motion.div 
                 style={{scaleY: scrollYProgress}}
-                className='absolute left-9 top-1 w-[4px] h-full bg-dark origin-top'>
+                className='absolute left-9 top-1 w-[4px] h-full bg-dark origin-top dark:bg-light'>
             </motion.div>
             <ul className='w-full flex flex-col items-start justify-between ml-4'>
                 <Details 
