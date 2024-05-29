@@ -12,7 +12,7 @@ const Footer = () => {
                 Built With <span className='text-primary dark:text-primaryDark text-2xl px-1'>&#9825;</span> by&nbsp; 
                 <Link href="/" className='underline underline-offset-2'>Luis Carlo Estrada</Link>
             </div>
-            <Link href="/" className='underline underline-offset-2'>Say hello</Link>
+            <Link href="mailto:lcrestrada.dev@gmail.com" className='underline underline-offset-2'>Say hello</Link>
         </Layout>
     </footer>
   )
