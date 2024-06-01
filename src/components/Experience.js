@@ -50,8 +50,8 @@ const Experience = () => {
                     address="Toronto, ON"
                     work={
                         <>
-                            - Our software development internship project is dedicated to enhancing accessibility by addressing the direct feedback from Fable&#39;s diverse user base.<br />
-                            - We&#39;ve built a widget that submits Fable requests via URLs or slugs, resulting in informative summary cards within Figma. In these cards are feedbacks from users.
+                            - As part of a team during my internship, I led the building of a widget that allows users to submit Fable requests via URLs or slugs, generating informative summary cards with user feedback within Figma.<br />
+                            - This feedback mechanism enables users facing accessibility issues to guide developers in addressing their specific challenges, ensuring accessibility remains a key consideration.
                         </>
                     }
                 />
@@ -63,8 +63,8 @@ const Experience = () => {
                     address="Manila, Philippines"
                     work={
                         <>
-                            - Spearheaded the development of Coca-Cola PH and E-TESDA&#39;s OFW RISE and iSTAR programs, offering comprehensive entrepreneurship courses for OFWs and MSMEs.<br />
-                            - Developed interactive learning components, including games, lectures, videos, and modules using HTML/CSS/JS.<br />
+                            - Spearheaded the development of Coca-Cola PH and E-TESDA&#39;s prototype of the OFW RISE and iSTAR programs, offering comprehensive entrepreneurship courses for OFWs and MSMEs.<br />
+                            - Developed interactive learning components, including games, lectures, videos, and modules using HTML/CSS/JS which are run through Moodle, a learning management system.<br />
                             - Developed and maintained web applications using a tech stack including JavaScript, React, and Node.js, delivering high-quality software solutions to meet client requirements and project deadlines.
                         </>
                     }
