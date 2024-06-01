@@ -8,7 +8,7 @@ import Project1 from '../../public/images/projects/featured-project-1.png'
 import Project2 from '../../public/images/projects/featured-project-2.png'
 import Project3 from '../../public/images/projects/project-3.png'
 import Project4 from '../../public/images/projects/project-4.png'
-import Project5 from '../../public/images/projects/project-5.png'
+import Project5 from '../../public/images/projects/featured-project-3.png'
 import TransitionEffect from '@/components/TransitionEffect'
 import { GithubIcon } from '@/components/Icons'
 
@@ -114,20 +114,20 @@ const projects = () => {
                     <div className='col-span-6 sm:col-span-12'>
                         <Project 
                             type="Project"
-                            title="Airbnb UI Interface Clone"
-                            link="https://airbnb-clone-hca4li7m6-guichoestrada.vercel.app/"
-                            github="https://github.com/GuichoEstrada/airbnb-clone"
+                            title="Fable OAuth Integrated Figma Widget"
+                            link="https://prezi.com/p/bicfzliuuqqn/?present=1"
+                            github="/"
                             img={Project4}
                         />
                     </div>
                     <div className='col-span-12'>
                         <FeaturedProject 
                             type="Featured Project"
-                            title="Fable OAuth Integrated Figma Widget"
-                            link="https://prezi.com/p/bicfzliuuqqn/?present=1"
-                            github="/"
+                            title="3D Portfolio"
+                            link="https://3d-portfolio-five-sepia.vercel.app/"
+                            github="https://github.com/GuichoEstrada/3d-portfolio"
                             img={Project5}
-                            summary="As part of a team during my internship, I contributed to building a widget that allows users to submit Fable requests via URLs or slugs, generating informative summary cards with user feedback within Figma. This feedback mechanism enables users facing accessibility issues to guide developers in addressing their specific challenges, ensuring accessibility remains a key consideration."
+                            summary="My own personal, mobile-responsive, 3D portfolio built with React, Tailwind CSS, and Three.js. Includes interactive parts and music."
                         />
                     </div>
                 </div>
